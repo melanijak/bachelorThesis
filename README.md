@@ -5,7 +5,7 @@
 Reads the downloaded data from FI and filters the data. Creates two data frames, one containing the baseline visits, and the other containing the remaining visits. 
 * normalize_values  
 Normalizes the values of the data
-* make_views 
+* make_views.py   
 Divides the data into separate views, to be used later in multi-view clustering
 
 #### Clustering
@@ -17,7 +17,7 @@ Performs multi veiw spectral clustering
 Performs the Kolmogorov-Smirnov statistic on pairs of cluster labels
 
 #### Rules
-* cluster_rules  
+* cluster_rules.py  
 Trains a decision tree models with a data set containing baseline visits and cluster assignments. Prints rules
 
 #### Progression
